@@ -1,0 +1,30 @@
+{
+    "name": "react-text-renderer-components-demo",
+    "version": "1.0.0",
+    "source": "src/index.html",
+    "scripts": {
+        "start": "parcel",
+        "build": "parcel build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "description": "",
+    "browserslist": [
+        ">0.5%",
+        "not dead",
+        "not and_uc >0"
+    ],
+    "dependencies": {
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0"
+    },
+    "devDependencies": {
+        "@types/react": "^19.0.4",
+        "@types/react-dom": "^19.0.2",
+        "parcel": "^2.13.3",
+        "process": "^0.11.10"
+    }
+}

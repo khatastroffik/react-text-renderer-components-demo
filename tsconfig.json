@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+      "experimentalDecorators": true,
+      "esModuleInterop":true,
+      "jsx": "react",
+      "isolatedModules": true
+    }
+  }
