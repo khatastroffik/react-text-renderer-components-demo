@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(35, 37, 37);
+    color: whitesmoke;
+    margin: 5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content {
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: hotpink;
+    font-family: cursive;
+}
+
+.demo {
+    margin: auto;
+    padding: 0 2rem;
+    border: 1px solid grey;
+    
+    & h2 {
+        color: paleturquoise;
+        font-variant: small-caps;
+        font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace; 
+        font-stretch: extra-expanded;
+    }
+}
+
+.usecase {
+    font-size: large;
+    margin: 2rem 0;
+
+    & span:nth-child(1) {
+        font-size: smaller;
+        color: peru;
+    }
+}
+.uc{
+    font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace; 
+    color: limegreen;
+    border: 1px solid slategray; 
+    padding: 5px;
+    font-size: medium;
+}

@@ -3,6 +3,7 @@
       "experimentalDecorators": true,
       "esModuleInterop":true,
       "jsx": "react",
-      "isolatedModules": true
+      "isolatedModules": true,
+      "lib": ["ES2015", "ES2020.Intl", "ESNext", "DOM"],
     }
   }
