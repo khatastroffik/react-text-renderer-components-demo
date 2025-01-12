@@ -12,37 +12,113 @@ body {
     box-sizing: border-box;
 }
 
+.k {
+    font-weight: 600 !important;
+    display: inline-block;
+    color: limegreen;
+    font-variant: small-caps;
+
+}
+
+.rota {
+    transform: rotateY(160deg);
+}
+
+.k11k {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, 'Arial Narrow Bold', Verdana, sans-serif;
+    font-weight: 200 !important;
+    display: inline;
+    color: forestgreen;
+}
+
 h1 {
     color: hotpink;
     font-family: cursive;
 }
 
+.label,
+.demo h2 {
+    color: paleturquoise;
+    font-variant: small-caps;
+    font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.demo h2::before {
+    content: "< ";
+    font-size: small;
+}
+
+.demo h2::after {
+    content: " ... />";
+    font-size: small;
+}
+
 .demo {
-    margin: auto;
-    padding: 0 2rem;
+    margin: 1rem auto;
+    padding: 0 2rem 2rem;
     border: 1px solid grey;
-    
-    & h2 {
-        color: paleturquoise;
-        font-variant: small-caps;
-        font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace; 
-        font-stretch: extra-expanded;
-    }
 }
 
 .usecase {
     font-size: large;
-    margin: 2rem 0;
 
-    & span:nth-child(1) {
-        font-size: smaller;
+    &>span:nth-child(1) {
+        font-size: 12px;
         color: peru;
+        visibility: hidden;
     }
 }
-.uc{
-    font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace; 
-    color: limegreen;
-    border: 1px solid slategray; 
+
+.usecase:hover {
+    cursor: pointer;
+
+    &>span:nth-child(1) {
+        font-size: 12px;
+        color: peru;
+        visibility: visible;
+        cursor: help;
+    }
+}
+
+.uc {
+    font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
+    color: forestgreen;
     padding: 5px;
     font-size: medium;
+    min-width: 40%;
+    display: inline flow-root;
+}
+
+.attrvalue {
+    color: limegreen;
+}
+
+.rendered {
+    display: initial;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+a.gh {
+    color: paleturquoise;
+
+    margin-bottom: 0;
+    text-decoration: none;
+
+}
+
+a.gh:hover {
+    color: hotpink;
 }
