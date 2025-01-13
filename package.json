@@ -6,6 +6,7 @@
     "scripts": {
         "start": "parcel",
         "build": "parcel build",
+        "build:ci": "parcel build --public-url ./",
         "clean": "rimraf dist",
         "test": "echo \"Error: no test specified\" && exit 1"
     },

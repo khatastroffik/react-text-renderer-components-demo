@@ -38,7 +38,7 @@ jobs:
       - name: npm install
         run: npm ci --ignore-scripts --force
       - name: Build Demo Site
-        run: npm run build
+        run: npm run build:ci
       - name: Configure GH pages
         uses: actions/configure-pages@v5
       - name: Upload Static Demo Site
