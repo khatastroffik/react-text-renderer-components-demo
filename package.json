@@ -37,7 +37,7 @@
         "not and_uc >0"
     ],
     "dependencies": {
-        "@khatastroffik/react-text-renderer-components": "^1.3.0",
+        "@khatastroffik/react-text-renderer-components": "^1.4.0",
         "react": "^19.0.0",
         "react-dom": "^19.0.0"
     },
